@@ -10,3 +10,7 @@ class ProfesorFormulario(Form):
     email= EmailField()
     profesion= CharField()
     
+class EstudianteForm(Form):
+    curso = CharField()
+    apellido = IntegerField()
+    email = EmailField()

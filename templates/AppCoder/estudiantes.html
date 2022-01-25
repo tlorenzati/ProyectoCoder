@@ -1,0 +1,17 @@
+{% extends 'AppCoder/padre.html' %}
+
+{% block contenidoQueCambia %}
+    <h3>Los Estudiantes son...</h3>
+
+    {% for estudiantes in estudiantes %}
+        {{ estudiantes.nombre }}  {{ estudiantes.apellido}}  ({{ estudiantes.email }}) 
+        <br>
+    {% endfor %}
+
+    <a class="btn btn-primary" href="{% url 'estudiantes_Formulario' %}">Agregar</a>
+
+{% endblock %}
+
+{% block titulo %}
+    Estudiantes
+{% endblock %}

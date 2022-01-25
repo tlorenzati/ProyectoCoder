@@ -2,6 +2,7 @@ from django.db.models import Model
 from django.db.models.fields import BooleanField, CharField, DateField, EmailField, IntegerField
 
 
+
 class Curso(Model):
     nombre = CharField(max_length=40, verbose_name='Descripcion')
     camada = IntegerField()
@@ -21,7 +22,7 @@ class Profesor(Model):
     profesion = CharField(max_length=30)
     
     def __str__(self):
-        return f'Profesor {self.nombre} {self.apellido} {self.email} {self.profesion}'
+        return f'Profesor {self.nombre} - {self.apellido} - {self.email} Profe de {self.profesion}'
     
 class Entregable(Model):
     nombre = CharField(max_length=30)

@@ -8,8 +8,12 @@
     <h3>Los profesores son: </h3>
 
     {% for profesores in profesores %}
-        <p style="color: red;">{{ profesores }}
-        
-    {% endfor %}
+        <a href="{% url 'profesor_view' profesores.id %}">{{ profesores }}</a>  
+        <a href="{% url 'profesor_delete' profesores.id %}">Borrar</a>  
+        <a href="{% url 'profesor_update' profesores.id %}">Editar</a>  
+        <br>
+        {% endfor %}
+    <br>
+    <a class="btn btn-primary" href="{% url 'profesorFormulario' %}">Agregar</a>
 
 {% endblock %}
