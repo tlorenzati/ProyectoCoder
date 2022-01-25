@@ -1,0 +1,15 @@
+{% extends 'AppCoder/padre.html' %}
+
+{% block titulo %}
+    Profesores
+{% endblock %}
+
+{% block contenidoQueCambia %}
+    <h3>Los profesores son: </h3>
+
+    {% for profesores in profesores %}
+        <p style="color: red;">{{ profesores }}
+        
+    {% endfor %}
+
+{% endblock %}
