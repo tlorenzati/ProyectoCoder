@@ -1,1 +1,7 @@
 # ProyectoCoder
+1- En la barra del explorador colocamos /coder para acceder a la web.
+2- Consta de 3 modelos para navegar, Profesores, Cursos, Estudiantes.
+3- En cada modelo, se muestra los datos ingresados y existe un boton para insertar mas datos a la respectiva clase.
+4- Si quisieramos buscar por ej, una camada en particular, podemos agregar en la barra de navegacion /coder/busquedacamada/ y podremos indicar alli la camada para que nos arroje cuantos cursos poseen la misma camada.
+
+//Quisiera aclarar, que soy muy nuevo en programacion y me ha costado mucho, sobre todo porque quede solo para hacer el trabajo final, ya que justo en la semana que se designaron los grupos intente comunicarme con mis dos compañeros y no recibi una pronta respuesta, despues me fui de vacaciones y no pude ver el slack que fue allí donde me quisieron contactar, pido disculpas por eso. La verdad que no tengo conocimiento alguno de programación previamente y me ha costado demasiado, pido tener algun tipo de consideración sobre todo porque en estas ultimas clases a mi parecer se fue demasiado rapido. Quisiera en la medida de lo posible si existe compañeros que aun no tienen grupo poder armar uno. Desde ya muchisimas gracias y pido disculpas si lo entregado no cumple con las expectativas.   
